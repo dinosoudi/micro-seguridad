@@ -54,3 +54,12 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+
+
+# Llaves para los jwt que no se deben subir
+keys/
+.keys
+
+# .env y variables de entorno que no se deben subir
+.env
